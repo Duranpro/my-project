@@ -113,6 +113,12 @@ contracts. Manual validation MAY be used for visual mobile behavior, AI output r
 or third-party service behavior when automation is impractical, but the manual checks
 and results MUST be documented.
 
+Implementation-critical technology decisions MUST be resolved during planning before task generation and implementation. A plan MUST NOT defer framework, platform, persistence, integration, or runtime choices when those choices are required to produce a runnable feature.
+
+A user-facing feature MUST NOT be considered complete when implemented only as stack-neutral descriptors, mocks, abstract interfaces, or test harnesses unless the specification explicitly defines such an artifact as the intended deliverable. Mobile features intended for production MUST be implemented and runnable in the selected mobile stack before they satisfy the Definition of Done.
+
+Architecture boundaries MAY remain technology-independent, but implementation plans MUST map those boundaries to concrete modules, paths, frameworks, and runtime integrations before implementation begins.
+
 ## Governance
 
 This constitution supersedes conflicting implementation practices, informal
@@ -133,4 +139,4 @@ Compliance review is required before a feature is considered complete. Any excep
 to a MUST-level rule requires documented approval, scope, expiration criteria, and a
 follow-up plan.
 
-**Version**: 1.0.1 | **Ratified**: 2026-09-01 | **Last Amended**: 2026-09-02
+**Version**: 1.1.0 | **Ratified**: 2026-09-01 | **Last Amended**: 2026-09-02
