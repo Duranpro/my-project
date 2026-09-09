@@ -32,5 +32,8 @@
 ## Notes
 
 - Validation iteration 1 completed on 2026-09-08.
+- Updated after grill-me decision pass and revalidated on 2026-09-09.
+- Updated catalog decisions after Q52-Q54 and revalidated on 2026-09-09.
+- Updated catalog composition decisions after Q56-Q57 and revalidated on 2026-09-09.
 - No clarification markers remain.
-- Scope excludes recipe recommendation, recipe generation, dietary preferences, authentication, user profiles, favorites, recipe history, social features, likes, comments, follows, and user-generated recipes.
+- Scope excludes direct editing of confirmed lists, recipe recommendation, recipe generation, dietary preferences, authentication, user profiles, favorites, recipe history, social features, likes, comments, follows, and user-generated recipes.
